@@ -28,7 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 public class QuestionActivity extends AppCompatActivity {
-    private Button add,excelbtn;
+    private Button add;
     private RecyclerView recyclerView;
     private Dialog loading;
     private QuestionsAdapter adapter;
@@ -54,7 +54,6 @@ public class QuestionActivity extends AppCompatActivity {
         loading.getWindow().setLayout(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         loading.setCancelable(false);
         add=findViewById(R.id.qesadd);
-        excelbtn=findViewById(R.id.excelbtn);
         recyclerView=findViewById(R.id.rv);
 
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);

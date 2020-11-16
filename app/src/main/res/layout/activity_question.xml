@@ -37,15 +37,6 @@
             android:text="Add"
             android:textColor="@color/white" />
 
-        <Button
-            android:id="@+id/excelbtn"
-            android:layout_width="140dp"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            android:background="@drawable/category_bg"
-            android:backgroundTint="#43A047"
-            android:text="Excel"
-            android:textColor="@color/white" />
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
